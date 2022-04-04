@@ -1,1 +1,129 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheatsheet</title>
+</head>
+<body>
+    <h1>HTML Cheatsheet</h1>
+    <p>HTML Cheatsheet para la clase de Construcion de Software version 1.0</p>
+
+    <p>El tag h(1-6) define headers que varian en tamaño</p>
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+
+    <p>El tag p crea un parrafo</p>
+    <p>Hello World!</p>
+
+    <p>Existen varios tipos de contenedores que sirven para dar estilo y ordenar la pagina por bloques de elementos</p>
+    <div>
+        <h3>Dentro del div</h3>
+        <p>(En VS Code si escribimos "lorem" seguido de un numero nos crea un parrafo de relleno de la cantidad especificada)</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum accusantium eveniet, tenetur, quaerat culpa est reprehenderit recusandae nihil molestias delectus inventore facilis adipisci tempore nam ab et, odio cum!</p>
+    </div>
+
+    <header>
+        <h3>Dentro del header</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At similique quaerat quia recusandae nesciunt esse labore aperiam eligendi qui nulla a delectus cumque, quis consequatur atque facere id. A, vitae.</p>
+    </header>
+
+    <span>
+        <h3>Dentro de Span</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, et cum. Quos doloribus perspiciatis quis atque. Nemo, temporibus consectetur magni ipsa obcaecati dolorem, enim quos, magnam maxime necessitatibus similique cum?</p>
+    </span>
+
+    <article>
+        <h3>Dentro de Article</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quaerat explicabo autem vel dicta eum corporis minima deleniti reiciendis iste, laudantium animi at architecto voluptatem modi corrupti qui vero itaque!</p>
+    </article>
+
+    <div>
+        <h1>Listas</h1>
+        <p>Existen listas ordenadas y no ordenadas que se definen con ul y ol respectivamente</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+    </div>
+
+    <div>
+        <h1>Tablas</h1>
+        <p>Las tablas son un poco mas complicadas de definir. Primero se necesita la tabla en si &#60;table&#62;, luego el header de la tabla o &#60;thead&#62; y el cuerpo o &#60;tbody&#62;. Dentro de cada una de estas secciones se definen primero filas o rows con el tag &#60;tr&#62; y finalmente dentro de las filas se definen los datos de la tabla o las celdas en cada fila &#60;td&#62;</p>
+        <table>
+            <thead>
+                <tr>
+                    <td>h1</td>
+                    <td>h2</td>
+                    <td>h3</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>row11</td>
+                    <td>row12</td>
+                    <td>row13</td>
+                </tr>
+                <tr>
+                    <td>row21</td>
+                    <td>row22</td>
+                    <td>row23</td>
+                </tr>
+                <tr>
+                    <td>row31</td>
+                    <td>row32</td>
+                    <td>row33</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h1>Imagenes</h1>
+        <p>Se usa el tag &#60;img&#62; con diferentes atributos</p>
+        <ul>
+            <li>alt: texto alternativo en caso de que no se encuentre la imagen</li>
+            <li>src: el path en donde se encuentra la imagen</li>
+            <li>width: modificar el tamano de la image, tambien se puede usar height</li>
+        </ul>
+        <img alt="Echo, Tarantula animated series" src="/images/MV5BYmY0ZDg1NmQtMTdlNi00NjhhLWIzM2EtMGIyZTM1NmQzMmYyXkEyXkFqcGdeQXVyNDU4Njg2MzM@._V1_.jpg" width="200">
+        <img src="https://picsum.photos/200/200">
+        <img src="/images/star-wars-creepy-smile.gif">
+        <img alt="Mommy Misato" src="https://wiki.evageeks.org/images/thumb/b/b3/OP_C014_misato.jpg/260px-OP_C014_misato.jpg">
+    </div>
+
+    <div>
+        <h1>Links</h1>
+        <a href="html_link.html">Hacia Link 1</a>
+    </div>
+
+    <div>
+        <h1>Forms</h1>
+        <form>
+            <p>Name</p>
+            <input>
+            <p>Email</p>
+            <input type="email">
+            <p>Password</p>
+            <input type="password">
+            <p>Description</p>
+            <textarea placeholder="Escribe Algo"></textarea><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
