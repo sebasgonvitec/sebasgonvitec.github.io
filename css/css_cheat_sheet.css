@@ -1,0 +1,111 @@
+div{
+    margin: 6px;
+}
+#border-div{
+    border: 5px solid orange;
+}
+
+#border-sides-div{
+    border-top: 12px solid green;
+    border-right: 5px solid blue;
+    border-bottom: 9px solid yellow;
+    border-left: 7px solid red;
+}
+
+#border-radius-div{
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#background-image-div{
+    color: white;
+    padding: 10px;
+    background-image: url("https://picsum.photos/700/200?grayscale");
+    border-radius: 10px;
+}
+
+#color-div{
+    color: purple;
+    background-color: #efc1fd;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#font-div{
+    font: italic 1.1em "Fira Sans", serif;
+}
+
+#font-family-div{
+    font-family: Verdana, Geneva, Tahoma;
+}
+
+#font-properties-div{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#width-height-div{
+    background-color: rgb(146, 207, 209);
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 300px;
+}
+
+#list-style-div{
+    background-color: rgb(145, 211, 149);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.lists{
+    list-style: url(/images/icons8-monkas-48.png) inside;
+}
+
+#margin-div{
+    background-color: rgba(242, 179, 243, 0.662);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 100px;
+}
+
+#padding-div{
+    background-color: rgba(243, 179, 200, 0.662);
+    border-radius: 10px;
+    padding: 60px;
+}
+
+#overflow-div{
+    background-color: rgba(172, 180, 232, 0.662);
+    border-radius: 10px;
+    padding: 5px;
+    height: 130px;
+    overflow: scroll;
+}
+
+#display-div{
+    background-color: rgba(172, 232, 227, 0.662);
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+#position-div{
+    background-color: rgba(255, 226, 186, 0.662);
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    top: 15px; left: 60px; bottom: 20px; right: 10px;
+}
+
+#filter-div{
+    background-color: rgba(208, 61, 91, 0.662);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.filter-image{
+    height: 300px;
+    filter: invert();
+}
