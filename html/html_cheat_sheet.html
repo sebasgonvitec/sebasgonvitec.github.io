@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/html_cheat_sheet.css" type="text/css" rel="stylesheet">
     <title>HTML Cheatsheet</title>
 </head>
 <body>
     <h1>HTML Cheatsheet</h1>
     <p>HTML Cheatsheet para la clase de Construcion de Software version 1.0</p>
 
+    
     <div>
+        <h2>Headers</h2>
         <p>El tag &#60;h(1-6)&#62; define headers que varian en tamaño</p>
         <p>No los usamos para cuando queremos añadirle este estilo a un texto</p>
+        <p>Ej.</p>
         <h1>Header 1</h1>
         <h2>Header 2</h2>
         <h3>Header 3</h3>
@@ -22,36 +26,84 @@
     </div>
 
     <div>
+        <h3>Parrafo</h3>
         <p>El tag &#60;p&#62; crea un parrafo</p>
-        <p>Hello World!</p>
+        <p>Ej. Esto es un parrafo lolololo</p>
     </div>
 
     <div>
+        <h2>Contenedores</h2>
         <p>Existen varios tipos de contenedores que sirven para dar estilo y ordenar la pagina por bloques de elementos</p>
         <div>
             <h3>Dentro del div</h3>
+            <p>div se utiliza para definir un bloque de contenido o una seccion del documento</p>
             <p>(En VS Code si escribimos "lorem" seguido de un numero nos crea un parrafo de relleno de la cantidad especificada)</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorum accusantium eveniet, tenetur, quaerat culpa est reprehenderit recusandae nihil molestias delectus inventore facilis adipisci tempore nam ab et, odio cum!</p>
         </div>
 
         <header>
             <h3>Dentro del header</h3>
+            <p>header se utiliza para definir un bloque de contenido introductorio</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At similique quaerat quia recusandae nesciunt esse labore aperiam eligendi qui nulla a delectus cumque, quis consequatur atque facere id. A, vitae.</p>
         </header>
 
         <span>
             <h3>Dentro de Span</h3>
+            <p>El span es un contedor inline que sirve para agrupar elementos en linea</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, et cum. Quos doloribus perspiciatis quis atque. Nemo, temporibus consectetur magni ipsa obcaecati dolorem, enim quos, magnam maxime necessitatibus similique cum?</p>
         </span>
 
         <article>
             <h3>Dentro de Article</h3>
+            <p>article se utiliza para definir una seccion autocontenida dentro del documento</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quaerat explicabo autem vel dicta eum corporis minima deleniti reiciendis iste, laudantium animi at architecto voluptatem modi corrupti qui vero itaque!</p>
         </article>
+
+        <footer>
+            <h3>Dentro del Footer</h3>
+            <p>footer se usa para definir un pie de pagina</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo error odit dolore repellat, veritatis iusto debitis iste ratione. Laudantium, saepe nobis! Suscipit accusantium dolorem consectetur ducimus doloribus officiis error distinctio.</p>
+        </footer>
+        
+        <aside>
+            <h3>Dentro del Aside</h3>
+            <p>aside se utiliza para definir una seccion del documento que no esta directamente relacionado con el cotenido principal. Se utiliza para hacer sidebars</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo cumque non voluptatem ducimus, eligendi aliquid officia quaerat consequuntur reprehenderit veniam illum fugiat sequi ipsum optio odit eveniet nam accusamus in.</p>
+        </aside>
+
+        <nav>
+            <h3>Dentro de Nav</h3>
+            <p>nav se utiliza para definir una seccion de barra de navegacion</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque nostrum adipisci dolore magnam hic delectus? Facere eos perspiciatis, similique veritatis expedita nam architecto in ducimus vitae assumenda, tempore, eveniet ex?</p>
+        </nav>
     </div>
 
     <div>
-        <h1>Listas</h1>
+        <h2>Modificadores de estilo de texto</h2>
+        <p>strong sirve para marcar un enfasis en partes de un texto</p>
+        <p>Ej. Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Voluptates error cupiditate illum eius </strong> totam sequi impedit voluptatibus sapiente assumenda minus perferendis blanditiis, dolorum hic iusto. Voluptatibus quo sint eveniet nihil.</p>
+        <p>i sirve para marcar una parte del texto en italica</p>
+        <p>Ej. <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. </i> Recusandae deserunt ut asperiores soluta quis veniam quibusdam, nihil quaerat odit illo quasi provident nostrum optio! Nesciunt sunt dolorem nostrum nobis maiores!</p>
+        <p>u sirve para subrayar una parte del texto</p>
+        <p>Ej. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ipsam corrupti <u>quas dignissimos autem magni non</u>, corporis sunt amet molestiae nulla aut libero veniam minima et at soluta ab tenetur.</p>
+        <p>b sirve para marcar una parte del texto en negritas</p>
+        <p>Ej. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quis cumque quia recusandae. Labore optio, voluptas voluptate maiores totam possimus nisi ipsam. <b>Doloremque nulla non, nesciunt perferendis ad minima illum.</b></p>
+        <p>strike sirve para tachar con una linea horizontal una parte del texto</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum inventore, <strike>quas fugit quaerat sit vero itaque nihil </strike>, suscipit saepe soluta accusantium dolorem dicta voluptates. Tempora fugit quaerat sequi inventore illo.</p>
+        <p>small sirve para hacer la letra de una parte de un texto mas pequeña</p>
+        <p>Ej. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam non architecto necessitatibus! <small> accusantium exercitationem earum blanditiis corrupti quos delectus saepe placeat accusamus consequuntur. Quam libero at facere distinctio impedit.</small></p>
+        <p>em sirve para marcar enfasis en una parte del texto, utilizando italicas</p>
+        <p>Ej. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit <em>dolorem repellat</em> nam impedit, repellendus animi architecto tenetur voluptate rerum nemo neque, optio, at corporis velit maxime cumque fugit! Obcaecati?</p>
+
+    </div>
+
+    <div>
+        <h2>Etiqueta br</h2>
+        <p>La etiquete br produce un salto de linea en el texto, no se tiene que cerrar</p>
+        <p>Ej. Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quaerat, nulla doloribus. <br>Voluptatibus voluptate totam, consequatur rem nesciunt in, molestiae quibusdam sit placeat, aliquid quia perspiciatis expedita consectetur animi quidem itaque?</p>
+    </div>
+    <div>
+        <h2>Listas</h2>
         <p>Existen listas ordenadas y no ordenadas que se definen con &#60;ul&#62; y &#60;ol&#62; respectivamente</p>
         <ul>
             <li>Item 1</li>
@@ -69,7 +121,7 @@
     </div>
 
     <div>
-        <h1>Tablas</h1>
+        <h2>Tablas</h2>
         <p>Las tablas son un poco mas complicadas de definir. Primero se necesita la tabla en si &#60;table&#62;, luego el header de la tabla o &#60;thead&#62; y el cuerpo o &#60;tbody&#62;. Dentro de cada una de estas secciones se definen primero filas o rows con el tag &#60;tr&#62; y finalmente dentro de las filas se definen los datos de la tabla o las celdas en cada fila &#60;td&#62;</p>
         <table>
             <thead>
@@ -100,7 +152,7 @@
     </div>
 
     <div>
-        <h1>Imagenes</h1>
+        <h2>Imagenes</h2>
         <p>Se usa el tag &#60;img&#62; con diferentes atributos</p>
         <ul>
             <li>alt: texto alternativo en caso de que no se encuentre la imagen</li>
@@ -114,8 +166,8 @@
     </div>
 
     <div>
-        <h1>Links</h1>
-        <p>Los links se crean usando el tag &#60;a&#62;</p>
+        <h2>Links</h2>
+        <p>Los links se crean usando el tag &#60;a&#62; y sirven para generar un vinculo a otra pagina dentro del servidor o en el internet</p>
         <p>Este tiene como atributo "href" que indica la direccion del link</p>
         <a href="html_link.html">Hacia Link 1</a>
         <br>
@@ -123,7 +175,7 @@
     </div>
 
     <div>
-        <h1>Forms</h1>
+        <h2>Forms</h2>
         <p>Las formas nos sirven para obtener datos del usuario y posteriormente guardarlos</p>
         <p>Una forma de definirlos es usando el tag &#60;input&#62; con el atributo type que indica el dato que se le va a pasar. Algunos ejemplos son:</p>
         <ul>
