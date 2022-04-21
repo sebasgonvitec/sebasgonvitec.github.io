@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/actividad1_js.css" type="text/css" rel="stylesheet">
+    <title>Actividad 1 JavaScript</title>    
+</head>
+<body>
+
+    <header>
+        <h1>Actividad 1 JavaScript</h1>
+        <h2>Karla Valeria Mondragon Rosas</h2>
+        <p>A01025108</p>
+        <h2>Sebastián González Villacorta</h2>
+        <p>A01029746</p>
+    </header>
+
+    <a href="/index.html">Regresar a indice</a>
+
+    <div>
+        <h3>1.</h3>
+        <p>Escribe una función que encuentre el primer carácter de un cadena de texto que no se repite.</p>
+        <div class="tests">
+            <div>
+                <p>Function Call:</p>
+                <p>repetidos('abacddbec')</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej1"></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>2.</h3>
+        <p>Escribe una función que implemente el algoritmo 'bubble-sort' para ordenar una lista de números.</p>
+        <div class="tests">
+            <div>
+                <p>Function Call:</p>
+                <p>bubble_sort([5, 2, 3, 4], 4)</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej2"></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>3.</h3>
+        <p>Escribe una función que implemente el algoritmo 'quick-sort' para ordenar una lista de números.</p>
+        <div class="tests">
+            <div>
+                <p>Function Call:</p>
+                <p>quick_sort([5, 3, 1, 80, 10])</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej3"></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>4.</h3>
+        <p>Escribe dos funciones: la primera que invierta un arreglo de números y regrese un nuevo arreglo con el resultado; la segunda que modifique el mismo arreglo que se pasa como argumento. No se permite usar la función integrada 'reverse'.</p>
+        <div class="tests">
+            <div>
+                <p>Arreglos utilizados:</p>
+                <p>let ar1 = [1, 2, 2, 3, 4]</p>
+                <p>let ar2 = [6, -1, 7, 5, 17, 1, 7, 5]</p>
+                <p>let ar3 = [9, 0, -5, 2]</p>
+                
+            </div>
+            <div>
+                <p>Function Call:</p>
+                <p>invertirArray(ar1)</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej4"></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>5.</h3>
+        <p>Usando la definición de clase de Javascript ES6, crea una clase que se llame 'Vector' que represente un vector de 3 dimensiones. La clase debe de poder sumar y restar vectores, obtener su magnitud, obtener el vector unitario, y multiplicar por un escalar.</p>
+        <div>
+            <div>
+                <p>Instancias de vector:</p>
+                <p>let vector1 = new Vector(2, 6, 1)</p>
+                <p>let vector2 = new Vector(1, 5, 3)</p>
+                <p>let vector3 = new Vector(5, 2, 1)</p>
+            </div>
+
+                <div>
+                    <p>Function Call:</p>
+                    <p>vector1.sum(vector2)</p>
+                </div>
+                <div>
+                    <p>Output:</p>
+                    <p id="ej5_sum"></p>
+                </div>
+                <div>
+                    <p>Function Call:</p>
+                    <p>vector2.sub(vector1)</p>
+                </div>
+                <div>
+                    <p>Output:</p>
+                    <p id="ej5_sub"></p>
+                </div>
+                <div>
+                    <p>Function Call:</p>
+                    <p>vector1.magintud()</p>
+                </div>
+                <div>
+                    <p>Output:</p>
+                    <p id="ej5_mag"></p>
+                </div>
+                <div>
+                    <p>Function Call:</p>
+                    <p>vector1.unitary()</p>
+                </div>
+                <div>
+                    <p>Output:</p>
+                    <p id="ej5_uni"></p>
+                </div>
+                <div>
+                    <p>Function Call:</p>
+                    <p>vector3.mult_scalar(3)</p>
+                </div>
+                <div>
+                    <p>Output:</p>
+                    <p id="ej5_scalar"></p>
+                </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>6.</h3>
+        <p>Escribe una función que calcule el máximo común divisor de dos números.</p>
+        <div class="tests">
+            <div>
+                <p>Function Call:</p>
+                <p>MaxCD(150, 95)</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej6"></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>7.</h3>
+        <p>Usando ojetos de tu clase 'Vector', crea una función que reciba dos vectores, y que indique si esos vectores son ortogonales o no.</p>
+        <div class="tests">
+            <div>
+                <p>Instancias de vector:</p>
+                <p>let vector_a = new Vector(4, 1, 0)</p>
+                <p>let vector_b = new Vector(-1, 4, 0)</p>
+            </div>
+            <div>
+                <p>Function Call:</p>
+                <p>ortogonales(vector_a, vector_b)</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej7"></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>8.</h3>
+        <p>Crea una función que cambie una cadena de texto a 'Hacker Speak'.</p>
+        <div>
+            <textarea id="chain_ej8" placeholder="Cadena de Texto"></textarea>
+            <button id="submit_ej8">Submit</button>
+            <p id="ans_ej8"></p>
+        </div>
+    </div>
+
+    <div>
+        <h3>9.</h3>
+        <p>Escribe una función que reciba un número, y regrese una lista con todos sus factores</p>
+        <div class="tests">
+            <div>
+                <p>Function Call:</p>
+                <p>factorizar(12)</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej9"></p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>10.</h3>
+        <p>Escribe una función que quite los elementos duplicados de un arreglo y regrese una lista con los elementos que quedan.</p>
+        <div class="tests">
+            <div>
+                <p>Function Call:</p>
+                <p>quitaDuplicados(ar1)</p>
+            </div>
+            <div>
+                <p>Output:</p>
+                <p id="ej10"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/actividad1_js.js"></script>
+</body>
+</html>
