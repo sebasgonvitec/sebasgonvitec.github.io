@@ -290,7 +290,7 @@ console.log(ortogonales(vector_a, vector_b))
 document.getElementById("ej7").innerHTML = ortogonales(vector_a, vector_b)
 
 //8. Hacker Speak
-console.log("8. Función Hacker Speak")
+console.log("8. Función Hacker")
 console.log(hacker_speak("Javascript es divertido"));
 
 document.getElementById("submit_ej8").onclick = function(){
