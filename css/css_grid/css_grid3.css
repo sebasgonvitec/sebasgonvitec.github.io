@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    height: 100vh;
+    overflow:hidden;
+    background-color: #232d41;
+}
+
+.container{
+    margin: 10px;
+    height: 100%;
+    display: grid;
+    grid-template-areas: "2" "3 1" "4";
+    grid-template-columns: repeat(4, fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(150px, fr);
+    gap: 20px;
+}
+
+.one{
+    background-color: #fd825c;
+    grid-area: 1;
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+.two{
+    background-color: #068b71;
+    grid-area: 2;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.four{
+    background-color: #fc6057;
+    grid-area: 3;
+    grid-row: 2;
+    grid-column: 2/4;
+}
+
+.five{
+    background-color: #1bc1a1;
+    grid-area: 4;
+    grid-row: 3;
+    grid-column: 1/4
+
+}

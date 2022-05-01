@@ -1,0 +1,176 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    overflow:hidden;
+    background-color: #232d41;
+}
+
+p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.container{
+    margin: 20px, 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: repeat(5, 1fr);
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.css_grid1{
+    background-color: #fc6057;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid1:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+
+.css_grid2{
+    background-color: #fd825c;
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+    
+}
+
+.css_grid2:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+.css_grid3{
+    background-color: #fda061;
+    grid-column: 3;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid3:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+.css_grid4{
+    background-color: #01a787;
+    grid-column: 4;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid4:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+.css_grid5{
+    background-color: #1bc1a1;
+    grid-column: 5;
+    grid-row: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid5:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+.css_grid6{
+    background-color: #34daba;
+    grid-column: 5;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid6:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+.css_grid7{
+    background-color: #fc6057;
+    grid-column: 4;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid7:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+.css_grid8{
+    background-color: #fd825c;
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid8:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}
+
+.css_grid9{
+    background-color: #fda061;
+    grid-column: 1;
+    grid-row: 5;display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.css_grid9:hover{
+    background-image: url(/images/rickroll-roll.gif);
+    background-size: 165px;
+    background-position: center;
+}

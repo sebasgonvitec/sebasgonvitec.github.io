@@ -1,0 +1,39 @@
+body{
+    overflow:hidden;
+    background-color: #232d41;
+}
+
+.container{
+    margin: 20px, 30px;
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: repeat(2, fr);
+    gap: 20px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.one{
+    background-color: #fc6057;
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.two{
+    background-color: #fd825c;
+    grid-column: 3;
+    grid-row: 1/3;
+    
+}
+
+.four{
+    background-color: #01a787;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.five{
+    background-color: #1bc1a1;
+    grid-column: 2;
+    grid-row: 2;
+}
