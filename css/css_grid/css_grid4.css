@@ -1,8 +1,18 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
     margin: 0;
     height: 100vh;
     overflow:hidden;
     background-color: #232d41;
+}
+
+p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
 
 .container{
@@ -21,6 +31,9 @@ body{
     grid-area: 1;
     grid-row: 1/4;
     grid-column: 1/5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .two{
@@ -28,6 +41,9 @@ body{
     grid-area: 2;
     grid-row: 1/4;
     grid-column: 5/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -36,17 +52,26 @@ body{
     grid-area: 3;
     grid-row: 8;
     grid-column: 1/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .five{
     background-color: #1bc1a1;
     grid-area: 4;
     grid-row: 4/8;
-    grid-column: 1/4
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .three{
     background-color: #fda061;
     grid-row: 4/8;
     grid-column: 4/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

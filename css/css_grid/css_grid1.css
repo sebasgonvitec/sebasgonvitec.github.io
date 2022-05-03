@@ -1,6 +1,16 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
     overflow:hidden;
     background-color: #232d41;
+}
+
+p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
 
 .container{
@@ -15,24 +25,42 @@ body{
 
 .one{
     background-color: #fc6057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .two{
     background-color: #fd825c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .three{
     background-color: #fda061;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .four{
     background-color: #01a787;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .five{
     background-color: #1bc1a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .six{
     background-color: #34daba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

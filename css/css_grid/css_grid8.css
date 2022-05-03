@@ -1,8 +1,18 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
     margin: 0;
     height: 100vh;
     overflow:hidden;
     background-color: #232d41;
+}
+
+p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
 
 .container{
@@ -19,52 +29,79 @@ body{
     background-color: #fd825c;
     grid-column: 1;
     grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .two{
     background-color: #068b71;
     grid-column: 2;
     grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .three{
     background-color: #fda061;
     grid-column: 3;
     grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .four{
     background-color: #fc6057;
     grid-column: 4;
     grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .five{
     background-color: #fd825c;
     grid-column: 5;
     grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .six{
     background-color: #068b71;
     grid-column: 1;
     grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .seven{
     background-color: #fda061;
     grid-column: 2;
     grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .eight{
     background-color: #fc6057;
     grid-column: 3/6;
     grid-row: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nine{
     background-color: #068b71;
     grid-column: 1/6;
     grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
